@@ -69,6 +69,13 @@ The tables above feature the specific values for the percentages of females who 
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
+
+According to the chi squared test shown above, the p-value is quite small, which means we reject the null hypothesis that claims there is no difference between taking the drug or taking the placebo in how it effects females getting or not getting aids. However, this is the opposite of the expected effect of the drug. Instead of preventing aids, the drugs appears to heighten ones chances of getting it. As such, we can confidently say this drug is not effective in aids prevention in women.
 
 # Discussion and Conclusion
 
