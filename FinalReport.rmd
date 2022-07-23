@@ -80,3 +80,5 @@ According to the chi squared test shown above, the p-value is quite small, which
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+The goal of this research was to analyze whether the drug triUmp is effective in preventing aids infections in women. After comparing this drug to a placebo and reviewing the graphical, numerical, and inferential results, it was determined that the drug actually produces the opposite of the desired effect. Majority of the women who got aids took the drug. In conclusion, the drug proved to be ineffective in preventing women from getting aids. 
