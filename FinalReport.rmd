@@ -44,6 +44,14 @@ In this case, we need to separate the population to showcase the females. Then w
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question. Bottom line is to explain the features of the graph that are relevant to conforming or departing to what is expected by your null hypothesis !-->
 
+```{r}
+barchartGC(~infected + treatment,data=females)
+barchartGC(~infected + treatment,data=females, type="percent")
+
+```
+
+Viewing the two bar charts above, we can see the frequency of females who got aids is somewhat smaller then those who did not. But after looking at the percentage graph, we can also see that of those females who got aids, most had taken the drug. Basically, the women who took the drug were just as likely to get aids. This suggests that the drug is ineffective against aids in females. Further testing can be done to test this.
+
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
