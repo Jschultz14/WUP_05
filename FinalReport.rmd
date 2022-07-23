@@ -57,6 +57,14 @@ Viewing the two bar charts above, we can see the frequency of females who got ai
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+```{r}
+table1 <- xtabs(~infected + treatment, data=females)
+rowPerc(table1)
+colPerc(table1)
+```
+
+The tables above feature the specific values for the percentages of females who did and did not get the treatment and those who did and did not get aids. Just like the previous information in the graphical descriptive results, this information also shows that majority of the women, whether they took the drug or not, did not get aids. 96.31% of those who took the drug did not get infected (97.58% of the females took the drug). This supports the notion that the drug is ineffective in protecting women against aids. 
+
 ## Inferential Results
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
